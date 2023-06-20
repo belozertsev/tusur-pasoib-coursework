@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	color: #3A4454;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 5rem;
+	background-color: #f4f4fe;
+}
+
+
+
+/* components/Header.jsx */
+.header__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-bottom: 1rem;
+
+	height: fit-content;
+	background-color: #9B9BDC;
+}
+
+.header__auth {
+	margin-right: 1rem;
+}
+
+.header__logo {
+	margin: 0.5rem;
+	color: white;
+	font-weight: 900;
+	font-size: 2rem;
+}
+
+.header__button {
+	padding: 1.5rem;
+	width: fit-content;
+	height: 100%;
+	color: white;
+	background-color: transparent;
+	border: none;
+}
+
+.header__button:hover {
+	background-color: #3A4454;
+}
+
+
+
+/* components/CreateForm.jsx */
+.createForm__createForm {
+	display: flex;
+	flex-direction: column;
+}
+
+.createForm__header {
+	font-weight: 400;
+	margin-bottom: 0.5rem;
+}
+
+.createForm__input {
+	border: 2px solid #9B9BDC;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.createForm__button {
+	padding: 0.5rem;
+	width: fit-content;
+}
+
+/* components/PostList.jsx */
+.postList__postList {
+	margin: 1rem 0;
+}
+
+.postList__header {
+	font-weight: 400;
+}
+
+
+
+/* components/PostList.jsx */
+.postItem__postItem {
+	display: flex;
+	flex-direction: column;
+
+	margin: 0.5rem 0;
+	padding: 10px;
+	border: 2px solid #9B9BDC;
+}
+
+.postItem__header {
+	margin-bottom: 0.25rem;
+}
+
+.postItem__text {
+	margin-bottom: 0.25rem;
+}
+
+.postItem__button {
+	padding: 0.5rem;
+	width: fit-content;
+}
+
+
+
+/* LoginPage.jsx and RegisterPage.jsx */
+.authPage__header {
+	margin: 1rem auto;
+}
+
+a {
+	margin: 1rem auto;
+}
+
+
+
+/* SettingsItem.jsx */
+.settingsItem__settingsItem {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.settingsItem__checkbox {
+	margin: 0 1rem;
+}
+
+
+
+/* friendItem */
+.friendItem {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 0.5rem 0;
+	padding: 10px;
+	border: 2px solid #9B9BDC;
+}

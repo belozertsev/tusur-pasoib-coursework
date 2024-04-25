@@ -227,7 +227,7 @@ const getUserbyPostId = async (id) => {
 
 // these functions should use JWT or any other type of tokens
 // but for simplification, the "child" generation of tokens is used
-const generateToken = (username, password) => { token: username + '!' + password + '!secret' }
+const generateToken = (username, password) => { return { token: username + '!' + password + '!secret' } }
 const checkToken = (token, username, password) => username + '!' + password + '!secret' === token
 
 
